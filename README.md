@@ -27,7 +27,6 @@ sayhello-flask/
 ## 1️⃣ PythonAnywhere 靜態網站
 
 📂 資料夾：`sayhello_web`
-📄 [👉 點此查看程式碼](./sayhello_web/sayhello_web.py)
 
 ```python
 from flask import Flask
@@ -47,8 +46,6 @@ if __name__ == '__main__':
 ## 2️⃣ PythonAnywhere RESTful API
 
 📂 資料夾：`sayhello_api`
-📄 [👉 點此查看程式碼](./sayhello_api/sayhello_api.py)
-📄 [👉 點此查看 requirements.txt](./sayhello_api/requirements.txt)
 
 ```python
 from flask import Flask
@@ -79,9 +76,6 @@ flask-restful
 ## 3️⃣ AWS Lambda (Zappa)
 
 📂 資料夾：`sayhello_lambda`
-📄 [👉 點此查看程式碼](./sayhello_lambda/sayhello_lambda.py)
-📄 [👉 點此查看 requirements.txt](./sayhello_lambda/requirements.txt)
-📄 [👉 點此查看 zappa\_settings.json](./sayhello_lambda/zappa_settings.json)
 
 ```python
 from flask import Flask
@@ -123,9 +117,7 @@ zappa
 ## 4️⃣ AWS Elastic Beanstalk
 
 📂 資料夾：`sayhello_eb`
-📄 [👉 點此查看程式碼](./sayhello_eb/application.py)
-📄 [👉 點此查看 requirements.txt](./sayhello_eb/requirements.txt)
-📄 [👉 點此查看 python.config](./sayhello_eb/.ebextensions/python.config)
+
 
 ```python
 from flask import Flask
@@ -264,12 +256,7 @@ eb create sayhello-env
 
 亞洲大學 資訊工程學系
 進階程式設計期末報告
-指導老師：謝老師
-專案製作人：**\[你的名字]**
-
-📂 資料夾：`sayhello_eb`  
-📄 [👉 點此查看程式碼](./sayhello_eb/application.py)  
-📄 [👉 點此查看 requirements.txt](./sayhello_eb/requirements.txt)  
-📄 [👉 點此查看 python.config](./sayhello_eb/.ebextensions/python.config)  
+指導老師：朱學亭
+專案製作人：白宸瑄
 
 
